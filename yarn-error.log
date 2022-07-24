@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\naimu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mongoose express jsonwebtoken bcrpytjs
+
+PATH: 
+  C:\Users\naimu\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\naimu\bin;%APPDATA%\npm;C:\Program Files\dotnet;C:\Windows\Sysnative\wsl.exe;C:\windows\system3;C:\windows;C:\windows\System32\Wbem";C:\Windows\Sysnative\wsl.exe;C:\Program Files\nodej;.;C:\Program Files\MongoDB\Server\5.0\data;C:\Program Files\MongoDB\Server\bin;C:\Program Files\MongoDB\Server\5.0\bin\mongod.exe;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\windows\system3;C:\windows;C:\windows\System32\Wbem";C:\Users\naimu\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\naimu\AppData\Roaming;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\nodejs;C:\Users\naimu\.dotnet\tools;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;C:\windows\system3;C:\windows;C:\windows\System32\Wbem";C:\Windows\Sysnative\wsl.exe;C:\Program Files\MongoDB\Server\5.0\bin\mongod.exe;C:\Users\naimu\AppData\Roaming\npm;C:\Users\naimu\AppData\Local\Programs\Microsoft VS Code\bin;C:\cmder;C:\Users\naimu\AppData\Local\Programs\oh-my-posh\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/bcrpytjs: Not found
+      at Request.params.callback [as _callback] (C:\Users\naimu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\naimu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\naimu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\naimu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "authintication",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
