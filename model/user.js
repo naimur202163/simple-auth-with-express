@@ -3,11 +3,9 @@ const mongoose = require("mongoose");
 const userSchema = new mongoose.Schema({
   first_name: {
     type: String,
-    default: none,
   },
   last_name: {
     type: String,
-    default: none,
   },
   email: {
     type: String,
